@@ -12,7 +12,7 @@ const Header = () => (
         src="https://assets.ccbp.in/frontend/react-js/wave-logo-img.png"
         alt="wave"
       />
-      <h1>Wave</h1>
+      <h1 className="title">Wave</h1>
     </div>
     <ul className="ul-container">
       <li className="li-container">
