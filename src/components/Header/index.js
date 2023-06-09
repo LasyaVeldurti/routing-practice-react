@@ -2,24 +2,36 @@
 // Write your JS code here
 import {Link} from 'react-router-dom'
 
-import {Home} from '../Home'
-
 import './index.css'
 
 const Header = () => (
-  <ul className="ul-container">
-    <li className="li-container">
+  <div className="routing-container">
+    <div className="logo-container">
       <img
         className="logo-img"
         src="https://assets.ccbp.in/frontend/react-js/wave-logo-img.png"
         alt="wave"
       />
       <h1>Wave</h1>
-    </li>
-    <li className="li-container">
-      <Link to="/">Home</Link>
-    </li>
-  </ul>
+    </div>
+    <ul className="ul-container">
+      <li className="li-container">
+        <Link className="link" to="/">
+          Home
+        </Link>
+      </li>
+      <li className="li-container">
+        <Link className="link" to="/about">
+          About
+        </Link>
+      </li>
+      <li className="li-container">
+        <Link className="link" to="/contact">
+          Contact
+        </Link>
+      </li>
+    </ul>
+  </div>
 )
 
 export default Header

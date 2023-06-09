@@ -12,3 +12,8 @@ body {
 }
 
 /* Write your CSS code here */
+.bg-container {
+  border: 3px solid #6d396b;
+  margin: 30px;
+  border-radius: 10px;
+}

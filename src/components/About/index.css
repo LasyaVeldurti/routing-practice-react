@@ -1,1 +1,18 @@
 /* Write your CSS code here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.headimg {
+  color: #551e53;
+}
+.blog-img {
+  width: 300px;
+}
+.description {
+  color: #555555;
+  font-size: 24px;
+}
